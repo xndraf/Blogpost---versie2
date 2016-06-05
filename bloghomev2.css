@@ -1,0 +1,261 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.head{
+  cursor: default;
+  float: left;
+  width: 67%;
+  height: 250px;
+  background-color:lightyellow;
+}
+
+h1{
+  transition: 0.3s;
+  color: lightsalmon;
+  font-weight: 400;
+  margin: 50px 100px 0px 100px;
+  font-size: 150px;
+}
+h1:hover{
+  font-weight: bold;
+}
+.h2cont{
+  float: right;
+  width: 33%;
+  height: 500px;
+  background-color: lightyellow;
+  position: relative;
+}
+/*korter kan ik volgende code helaas niet schrijven omdat het webkiteffect dan niet wil werken*/
+.eenh2{
+  font-weight: 800;
+  color: white;
+   background: url("https://images.unsplash.com/photo-1417640712331-47f5ff77ce29?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8b9fbc445ef489b823c570663a89ee40") no-repeat;
+   -webkit-background-clip: text;
+   background-attachment: fixed;
+   background-size: cover;
+   -webkit-text-fill-color: transparent;
+   position: absolute;
+  bottom: 0px;
+  left: -10px;
+  font-size: 100px;
+}
+.tweeh2{
+  width: 100%;
+  font-weight: 800;
+  color: white;
+   background: url("https://images.unsplash.com/photo-1444913220552-fe31fed9c5bd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58c41e22c39f448c8918c796e8578070") no-repeat;
+   -webkit-background-clip: text;
+   background-attachment: fixed;
+   background-size: cover;
+   -webkit-text-fill-color: transparent;
+   position: absolute;
+  bottom: 0px;
+  left: -10px;
+font-size: 100px;
+}
+.drieh2{
+  font-weight: 800;
+  color: white;
+   background: url("https://images.unsplash.com/photo-1460395966576-cf26ecd6ce4c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=04f227ac490395f9baacaca2777d21c6") no-repeat;
+   -webkit-background-clip: text;
+   background-attachment: fixed;
+   background-size: cover;
+   -webkit-text-fill-color: transparent;
+   position: absolute;
+  bottom: 0px;
+  left: -10px;
+ font-size: 100px;
+}
+.linkcontainer{
+  width: 100%;
+  float:left;
+  background-color: lightseagreen;
+  z-index: 300;
+  height: 62.5px;
+}
+.navlink{
+  float: left;
+  margin: 21px 0px 21px 100px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+.linkcontainer:nth-child(even){
+  background-color: lightsalmon;
+}
+span{
+  color: lightseagreen;
+  font-size: 160px;
+  font-family: 'Indie Flower', cursive;
+}
+h3{
+
+  color: lightseagreen;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  margin: -30px 0px 50px 220px;
+}
+
+h4{color: white;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+}
+a{
+  transition: 0.3s ease;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:hover{
+  color: rgba(255, 255, 255, 0.5);
+}
+p{
+  line-height: 125%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.lastblogp{
+  margin-bottom: 100px;
+}
+.blog{
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: -500px;
+  overflow: auto;
+  background-color: lightsalmon;
+}
+.textdif{
+  color: rgba(0, 0, 0, 0.5);
+}
+.leesverder{
+  margin-bottom: 50px;
+
+}
+nav{width: 33%;
+  background-color: lightseagreen;
+  height: 250px;
+  float: left;
+
+}
+.content1,.content3{
+  float: right;
+  width: 33%;
+  height: 500px;
+  margin-top: -500px;
+  overflow: auto;
+  background-color: lightsalmon;
+}
+.content2{
+  float: right;
+  width: 33%;
+  height: 500px;
+  margin-top: -500px;
+  overflow: auto;
+  background-color: lightseagreen;
+}
+
+.foto1,.foto2,.foto3{
+  float: left;
+  width: 100%;
+  height: 1000px;
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+.foto1{
+    background-image: url("https://images.unsplash.com/photo-1417640712331-47f5ff77ce29?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8b9fbc445ef489b823c570663a89ee40");
+}
+.foto2{
+  background-image: url("https://images.unsplash.com/photo-1444913220552-fe31fed9c5bd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58c41e22c39f448c8918c796e8578070");
+}
+.foto3{
+  background-image: url("https://images.unsplash.com/photo-1460395966576-cf26ecd6ce4c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=04f227ac490395f9baacaca2777d21c6");
+}
+.archieflinks{
+  float: right;
+  width: 33%;
+  height: 50px;
+  background-color: lightseagreen;
+}
+.postlink{
+  color: white;
+  font-weight: 600;
+  width: 200px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 15px;
+
+}
+footer{
+  color: white;
+  font-weight: 600;
+  float: left;
+  background-color: #2A2C2B;
+  height: 50px;
+  width: 67%;
+
+}
+.foot{
+  margin-left: 100px;
+  margin-top: 15px;
+}
+@media (max-width:1000px) {
+  .head{
+    height: 30vw;
+     width: 100%;
+  }
+  h1{
+
+    font-size: 10vw;
+  }
+  span{
+    font-size: 15vw;
+  }
+  h3{margin-left: 150px;
+    margin-top: -10px;
+    font-size: 4vw;
+  }
+  nav{
+    width: 100%;
+    height: 50px;
+  }
+  .linkcontainer{
+    width: 25%;
+  }
+  .navlink{
+    font-size: 3vw;
+    margin: 10px;
+  }
+  .foto1,.foto2,.foto3{
+    height: 500px;
+  }
+  .content1,.content2,.content3{
+    width: 100%;
+    margin-top: 0px;
+  }
+  .eenh2,.tweeh2,.drieh2{
+    width: 100%;
+    font-size: 75px;
+    margin-top: 0px;
+  }
+  .h2cont{
+    height: 500px;;
+    width: 50%;
+  }
+  .blog{
+    margin-top: 0px;
+  }
+  .archieflinks{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+  }
+}
